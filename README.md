@@ -1,5 +1,7 @@
 # Buku JavaScript
 
+![JavaScript Learning Path](diagram/javascript-learning-path.png)
+
 ## Web
 - HTML
 - CSS
@@ -9,8 +11,13 @@
 - JavaScript OOP
 - JavaScript Async
 - Domain Object Model
-- Service Worker
+
+## Web API
 - Canvas API
+- Web Workers API
+- Geolocation API
+- IndexedDB API
+- Web Storage API
 
 ## NodeJS
 - NodeJS
@@ -29,3 +36,7 @@
 
 ## Backend Framework
 - ExpressJS
+
+## Frontend
+- VueJS
+- ReactJS

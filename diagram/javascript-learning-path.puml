@@ -1,0 +1,48 @@
+@startuml
+
+file "HTML" as html
+file "CSS" as css
+
+file "JavaScript Fundamental" as fundamental
+file "JavaScript Object Oriented Programming" as oop
+file "JavaScript Async" as async
+file "Domain Object Model" as dom
+
+file "Web API" as webapi
+
+file "NodeJS" as nodejs
+file "Node Package Manager" as npm
+
+file "RxJs" as rxjs
+
+file "Sequelize" as sequelize
+file "Mongosee" as mongosee
+
+file "TypeScript Fundamental" as typescriptfundamental
+file "TypeScript Object Oriented Programming" as typescriptoop
+
+file "ExpressJS" as expressjs
+
+file "VueJS" as vuejs
+file "ReactJS" as reactjs
+
+html --> css
+css --> fundamental
+fundamental --> oop
+oop --> async
+oop --> dom
+dom --> webapi
+async --> nodejs
+nodejs --> npm
+expressjs --> rxjs
+expressjs --> sequelize
+expressjs --> mongosee
+npm --> expressjs
+npm --> typescriptfundamental
+typescriptfundamental --> typescriptoop
+webapi --> vuejs
+webapi --> reactjs
+npm --> vuejs
+npm --> reactjs
+
+@enduml
